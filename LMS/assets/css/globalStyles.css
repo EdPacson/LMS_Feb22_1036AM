@@ -1,0 +1,115 @@
+/*-------- LOGIN CSS -----------*/
+.loginBody 
+{
+    color: #5a5a5a;
+	font-family: Open Sans, 'sans-serif';
+	overflow: hidden;	
+}
+.modal-header.login
+{
+    background-color: #0B5730;
+    color: #fff;
+    border-bottom: 2px solid #0B5730;
+}
+ .borderless td       
+ {
+     border: none;
+ }
+.modal-body
+{
+    border-left: 5px solid #0B5730;
+    border-right: 5px solid #0B5730;
+}
+.modal-header, .modal-footer
+{
+    border: 5px solid #0B5730;
+}
+#img_placeholder01
+{
+  display: block;
+  position: fixed;
+  z-index: 1;
+  display: inline-block;
+  width: 100%;
+  height: 93px;
+  box-shadow: 0 1px 6px #2d2d2d;
+  background: rgba(250,250,250,0.9);
+  border-top: 1px solid #e6e7e8;
+}	
+.carousel img 
+{
+	min-width: 100%;
+	height: 650px;
+}
+.carousel-caption 
+{
+	background-color: transparent;
+    position: static;
+    max-width: 550px;
+    padding: 0 20px;
+    margin-bottom: 100px;
+	font-family: Open Sans, 'sans-serif';
+	
+}
+.carousel-caption h1,	
+.carousel-caption .lead 
+{
+	margin: 0;
+    line-height: 1.25;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+.carousel-caption .btn 
+{
+	margin-top: 10px;
+}
+.login
+{
+	background: #15A65A;
+	color: #fff;
+}
+.navbar
+{
+	background: #000;
+}
+
+        .aspButton
+        {
+            font-family: Open Sans, 'sans-serif';
+        }
+        ::selection {
+	        background: #15A65A; /* Safari */
+	        color: #fff;
+	        }
+        ::-moz-selection {
+	        background: #15A65A; /* Firefox */
+	        color: #fff;
+        } 
+.modal-footer
+{
+    margin-top: -25px;
+}        
+.textters
+{
+			transition: all 0.15s ease-in-out;
+	border: 2px solid #0B5730;
+			color: #0B5730;
+			border-radius:2px;
+} 
+input[type="text"]:focus
+{
+			transition: all 0.15s ease-in-out;
+			border: 2px solid #000;	
+} 
+input[type="password"]
+{
+			transition: all 0.15s ease-in-out;
+	border: 2px solid #0B5730;
+			color: #0B5730;
+			border-radius:2px;
+} 
+input[type="password"]:focus
+{
+			transition: all 0.15s ease-in-out;
+			border: 2px solid #15A65A;
+}

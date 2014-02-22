@@ -1,0 +1,582 @@
+    body 
+    {
+        padding-top: 80px;
+      	padding-bottom: 40px;
+		font-family: Open Sans, 'sans-serif';
+		background: url(../img/bg_gray2.PNG);
+		color: #0B5730;
+
+    }
+
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+	.tsample
+	{
+		margin-top: -15px;
+		margin-bottom: -10px;
+		width: 110;
+		height: 40px;
+	}
+    .navbar-wrapper {
+      position: relative;
+      z-index: 10;
+      margin-top: 0px;
+      margin-bottom: 0px; 
+    }
+    .navbar .navbar-inner {
+      border: 0;
+      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+              box-shadow: 0 2px 10px rgba(0,0,0,.25);
+    }
+    .navbar .brand {
+      padding: 20px 25px 16px;
+      font-size: 20px;
+      font-weight: bold;
+	  color: #fff;	
+      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    }
+    .navbar .nav > li > a {
+      padding: 18px 15px;
+	  font-size: 18px;
+	  color: #fff;
+	  
+    }	
+    .navbar .btn-navbar {
+      margin-top: 10px;
+    }
+.navbar .navbar-inner 
+{
+	  background-color: #0B5730;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+     color: red;
+}
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+background-color: #15A65A;
+color: #fff;
+text-decoration: none;
+	  transition: all 0.2s ease-out;
+	  -webkit-transition: all 0.2s ease-out;		
+	  -moz-transition: all 0.2s ease-out;
+}
+.navbar .nav li.dropdown.open > .dropdown-toggle
+{
+	background: #15A65A;
+	color: #fff;
+
+}
+.dropdown-menu > li > a:hover
+{
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #15A65A;
+	  transition: all 0.2s ease-out;
+	  -webkit-transition: all 0.2s ease-out;		
+	  -moz-transition: all 0.2s ease-out;		
+	  
+	
+}
+#formBody, #formBody3
+	{
+	    margin-top: auto;
+		background: #fff;
+		height: auto;
+		transition: all 0.50s ease-in-out;
+  -moz-box-shadow:    2px 2px 13px 3px #ccc;
+  -webkit-box-shadow: 2px 2px 13px 3px #ccc;
+  box-shadow:         2px 2px 13px 3px #ccc;	
+		-webkit-transition: all 0.50s ease-in-out;
+		-moz-transition: all 0.50s ease-in-out;
+		padding:15px;
+		overflow-y: auto;
+		border: 2px solid #0B5730; 
+
+	}	
+	#formBody2
+	{
+	    margin-top: auto;
+		background: #fff;
+		height: auto;
+		transition: all 0.50s ease-in-out;
+  -moz-box-shadow:    2px 2px 13px 3px #ccc;
+  -webkit-box-shadow: 2px 2px 13px 3px #ccc;
+  box-shadow:         2px 2px 13px 3px #ccc;	
+		-webkit-transition: all 0.50s ease-in-out;
+		-moz-transition: all 0.50s ease-in-out;
+		padding:15px;
+		border: 2px solid #0B5730; 
+
+	}	
+
+
+.navbar .btn-navbar:hover {
+color: #ffffff;
+background-color: #15A65A;
+}
+.nav-collapse .nav > li > a
+{
+    color: #fff;
+}
+.nav-collapse .nav > li > a:hover, .nav-collapse .nav > li > a:focus, .nav-collapse .dropdown-menu a:hover, .nav-collapse .dropdown-menu a:focus {
+background-color: #15A65A;
+color: #fff;
+}
+.nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
+color: #ffffff;
+background-color: #15A65A;
+}
+
+input[type="text"], select{
+    width:90%;
+    box-sizing: border-box;
+    height: 100%;
+		font-family: Open Sans, 'sans-serif';    
+
+}
+input[type="text"]:hover, input[type="text"]:focus
+{
+       border-color: #15A65A;
+}
+.aspButton
+{
+    font-family: Open Sans, 'sans-serif';  
+}
+.aspLabel
+{
+    font-family: Open Sans, 'sans-serif';
+    font-size: 16px;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;  
+}
+::selection {
+	background: #15A65A; /* Safari */
+	color: #fff;
+	}
+::-moz-selection {
+	background: #15A65A; /* Firefox */
+	color: #fff;
+} 
+.aspTable
+{
+    width:50px;
+    box-sizing: border-box;
+    height: 100%;
+		font-family: Open Sans, 'sans-serif';    
+
+}
+.textTable
+{
+    width: 200px;
+}
+
+.feedback
+{
+    width: 50%;
+}
+
+ 
+/* --------- ERROR PAGE --------*/
+	.errorPage
+	{
+		background: #820000;
+	}
+	.errorH1
+	{
+		font-size: 50px;
+	}
+	.errorH1, .errorH4
+	{
+		color: #FFF;
+	}
+	
+.GridStyle th
+{
+    background-color: #0B5730;
+    border: #0B5730;
+    text-align: center;
+
+}
+/* Your grid header link style
+.GridStyle tr th a,.GridStyle tr th a:visited
+{
+        color:Black;
+}
+.GridStyle tr th, .GridStyle tr td table tr td
+{
+    border: none;
+}
+
+.GridStyle td
+{
+    border-bottom: 1px solid rgb(217, 231, 255);
+    padding: 2px;
+}	*/
+
+/* CUSTOM BUTTONS */
+.success-custom
+{
+			transition: all 0.15s ease-in-out;
+	background-color: #0B5730;
+}
+.success-custom:hover
+{
+		transition: all 0.15s ease-in-out;
+	background-color: #15A65A;
+}
+.metro .input-control.switch
+{
+display: inline-block;
+cursor: pointer;
+position: relative;
+margin-bottom: 7pt;
+}
+.input-control.switch .check {
+position: relative;
+width: 45px;
+height: 18px;
+outline: 2px #a6a6a6 solid;
+border: 1px #fff solid;
+cursor: pointer;
+background: #A6A6A6;
+z-index: 1;
+display: inline-block;
+vertical-align: middle;
+}
+.input-control.switch .check:after {
+position: absolute;
+left: -1px;
+top: -1px;
+display: block;
+content: "";
+width: 9px;
+height: 16px;
+outline: 2px #333 solid;
+border: 1px #333 solid;
+cursor: pointer;
+background: #333;
+z-index: 2;
+}
+.input-control.switch input[type="checkbox"] {
+position: absolute;
+opacity: 0;
+width: 1px;
+height: 1px;
+}
+.metro .input-control.switch input[type="checkbox"]:checked ~ .check {
+background: #008287;
+}
+.metro .input-control.switch input[type="checkbox"]:checked ~ .check:after {
+left: auto;
+right: -1px;
+}
+.accordion-heading .accordion-toggle {
+background-color: #fff;
+color: #0B5730;
+border: 2px #0B5730 solid;
+display: block;
+padding: 8px 15px;
+}
+.accordion-inner {
+padding: 9px 15px;
+border: 2px #0B5730 solid;
+border-top: 0px;
+}
+input[type="text"]
+{
+			transition: all 0.15s ease-in-out;
+	border: 1px solid #0B5730;
+			color: #0B5730;
+			border-radius:2px;
+} 
+input[type="text"]:focus
+{
+			transition: all 0.15s ease-in-out;
+			border: 1px solid #15A65A;	
+} 
+input[type="password"]
+{
+			transition: all 0.15s ease-in-out;
+	border: 1px solid #0B5730;
+			color: #0B5730;
+			border-radius:2px;
+} 
+input[type="password"]:focus
+{
+			transition: all 0.15s ease-in-out;
+			border: 1px solid #15A65A;
+} 
+        .ddl
+        {
+            border-radius:2px;
+            padding:3px;
+            -webkit-appearance: none; 
+            background-image:url('../img/Arrowhead-Down-01.png');
+            background-position:175px;
+            background-repeat:no-repeat;
+            text-indent: 0.09px;/*In Firefox*/
+            text-overflow: '';/*In Firefox*/
+            color: #0B5730;
+            	border: 1px solid #0B5730;
+        }
+        .dll2
+        {
+            border-radius:2px;
+            padding:3px;
+            -webkit-appearance: none; 
+            background-image:url('../img/Arrowhead-Down-01.png');
+            background-position:150px;
+            background-repeat:no-repeat;
+            text-indent: 0.09px;/*In Firefox*/
+            text-overflow: '';/*In Firefox*/
+            color: #0B5730;
+            	border: 1px solid #0B5730;            
+        }
+        .dll3
+        {
+            border-radius:2px;
+            padding:3px;
+            -webkit-appearance: none; 
+            background-image:url('../img/Arrowhead-Down-01.png');
+            background-position:130px;
+            background-repeat:no-repeat;
+            text-indent: 0.09px;/*In Firefox*/
+            text-overflow: '';/*In Firefox*/
+            color: #0B5730;
+            	border: 1px solid #0B5730;            
+        }      
+        .dll4
+        {
+            border-radius:2px;
+            padding:3px;
+            -webkit-appearance: none; 
+            background-image:url('../img/Arrowhead-Down-01.png');
+            background-position:150px;
+            background-repeat:no-repeat;
+            text-indent: 0.09px;/*In Firefox*/
+            text-overflow: '';/*In Firefox*/
+            color: #0B5730;
+            	border: 1px solid #0B5730;            
+        }
+        .dll5
+        {
+            border-radius:2px;
+            padding:3px;
+            -webkit-appearance: none; 
+            background-image:url('../img/Arrowhead-Down-01.png');
+            background-position:300px;
+            background-repeat:no-repeat;
+            text-indent: 0.09px;/*In Firefox*/
+            text-overflow: '';/*In Firefox*/
+            color: #0B5730;
+            	border: 1px solid #0B5730;            
+        }                              
+        #custom
+        {
+            border: 1px solid #0B5730;
+            border-left: none;
+            background: #fff;
+            color: #0B5730;
+        }
+ .borderless td       
+ {
+     border: none;
+ }
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0px;
+    margin: 2px 0px 0px;
+    list-style: none outside none;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-clip: padding-box;
+    border: 2px solid #0B5730;
+    color: #0B5730;
+    -moz-box-shadow:    2px 2px 5px 3px #ccc;
+    -webkit-box-shadow: 2px 2px 5px 3px #ccc;
+    box-shadow:         2px 2px 5px 3px #ccc;	
+}
+.btn-success
+{
+	background: #fff;
+	color: #0B5730;
+	border: 2px solid  #0B5730;
+}
+
+.btn-success:hover
+{
+    color: #0B5730;
+	background: #E6E6E6;    
+}
+.btn-success:focus
+{
+    color: #fff;
+    background-color: #0B5730;
+}
+.btn-warning
+{
+    	background: #fff;
+	color: #F89406;
+	border: 2px solid #F89406;
+}
+.btn-warning:hover
+{
+	color: #F89406;
+	background: #E6E6E6;	
+}
+.btn-warning:focus
+{
+	color: #fff;
+	background-color: #F89406;
+	border: 2px solid #F89406;
+}
+.btn-danger
+{
+    	background: #fff;
+	color: #B94A48;
+	border: 2px solid #B94A48;
+}
+.btn-danger:hover
+{
+	color: #B94A48;
+	background: #E6E6E6;	
+}
+.btn-danger:focus
+{
+	color: #fff;
+	background-color: #B94A48;
+	border: 2px solid #B94A48;
+}
+
+/*------------------------------------------------------------------*/
+
+
+/*-------- LOGIN CSS -----------*/
+.loginBody 
+{
+    color: #5a5a5a;
+	font-family: Open Sans, 'sans-serif';
+	overflow: hidden;	
+}
+.modal-header.login
+{
+    background-color: #0B5730;
+    color: #fff;
+    border-bottom: 2px solid #0B5730;
+}
+ .borderless td       
+ {
+     border: none;
+ }
+.modal-body
+{
+    border-left: 5px solid #0B5730;
+    border-right: 5px solid #0B5730;
+}
+.modal-header, .modal-footer
+{
+    border: 5px solid #0B5730;
+}
+.modal-footer
+{
+    background-color: #fff;
+}
+
+#img_placeholder01
+{
+  display: block;
+  position: fixed;
+  z-index: 1;
+  display: inline-block;
+  width: 100%;
+  height: 93px;
+  box-shadow: 0 1px 6px #2d2d2d;
+  background: rgba(250,250,250,0.9);
+  border-top: 1px solid #e6e7e8;
+}	
+.carousel img 
+{
+	min-width: 100%;
+	height: 650px;
+}
+.carousel-caption 
+{
+	background-color: transparent;
+    position: static;
+    max-width: 550px;
+    padding: 0 20px;
+    margin-bottom: 100px;
+	font-family: Open Sans, 'sans-serif';
+	
+}
+.carousel-caption h1,	
+.carousel-caption .lead 
+{
+	margin: 0;
+    line-height: 1.25;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+.carousel-caption .btn 
+{
+	margin-top: 10px;
+}
+.login
+{
+	background: #15A65A;
+	color: #fff;
+}
+
+        ::selection {
+	        background: #15A65A; /* Safari */
+	        color: #fff;
+	        }
+        ::-moz-selection {
+	        background: #15A65A; /* Firefox */
+	        color: #fff;
+        } 
+.modal-footer
+{
+    margin-top: -25px;
+}        
+.textters
+{
+			transition: all 0.15s ease-in-out;
+	        border: 2px solid #0B5730;
+			color: #0B5730;
+			border-radius:2px;
+} 
+a:link
+{
+    color: #0B5730;
+}
+a:hover
+{
+    color: #15A65A;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:active
+{
+    color: #0B5730;
+       text-decoration: underline;
+    font-weight: bold; 
+}
+a:visited
+{
+    color: #0B5730;
+       text-decoration: underline;
+    font-weight: bold; 
+}
